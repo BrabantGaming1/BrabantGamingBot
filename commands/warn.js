@@ -38,7 +38,7 @@ module.exports.run = async (client, message, args) => {
         .setTimestamp()
         .setDescription(`**Gewarnd:** ${warnUser} (${warnUser.id})
         **Warning door:** ${message.author}
-        **Redenen: ** ${reason}`)
+        **Redenen.: ** ${reason}`)
         .addField("Aantal warns", warns[warnUser.id].warns);
 
     var channel = message.member.guild.channels.cache.get("498068972604882945");
