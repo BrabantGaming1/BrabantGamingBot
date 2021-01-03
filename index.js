@@ -1,8 +1,6 @@
 const discord = require("discord.js");
 const botConfig = require("./botconfig.json");
 
-const activeSongs = new Map();
-
 //  Command handler
 const fs = require("fs");
 const { isFunction } = require("util");
