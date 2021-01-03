@@ -1,6 +1,5 @@
 const discord = require("discord.js");
 const botConfig = require("./botconfig.json");
-const database = require("./database.json");
 
 const activeSongs = new Map();
 
