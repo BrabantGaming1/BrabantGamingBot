@@ -12,7 +12,7 @@
     "yt",
     "test"
   ],
-  "author": "Jens",
+  "author": "Bram",
   "license": "ISC",
   "dependencies": {
     "@discordjs/opus": "^0.3.2",
